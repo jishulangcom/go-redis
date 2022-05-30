@@ -11,7 +11,10 @@ import (
 
 var DB *redis.Client
 
-func NewDB(redisCnf config.RedisCnfDto, redisPoolCnf *config.RedisPoolCnfDto) *redis.Client {
+func NewDB(redisCnf *config.RedisCnfDto, redisPoolCnf *config.RedisPoolCnfDto) *redis.Client {
+	if redisCnf == nil {
+		redisCnf = &config.RedisCnf
+	}
 	if redisPoolCnf == nil {
 		redisPoolCnf = &config.RedisPoolCnf
 	}
