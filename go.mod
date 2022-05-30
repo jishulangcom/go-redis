@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/go-redis/redis/v8 v8.11.5
-	github.com/jishulangcom/go-config v0.0.6
+	github.com/jishulangcom/go-config v0.0.7
 )
 
 require (
