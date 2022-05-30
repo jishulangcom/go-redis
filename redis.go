@@ -13,7 +13,7 @@ import (
 
 var DB *redis.Client
 
-func NewDB(redisCnf config.RedisCnfDto) {
+func NewDB(redisCnf config.RedisCnfDto) *redis.Client {
 	poolCnt := 4 * runtime.NumCPU()
 	if poolCnt < 4 {
 		poolCnt = 4
@@ -68,6 +68,8 @@ func NewDB(redisCnf config.RedisCnfDto) {
 	if err != nil {
 		panic(err)
 	}
+
+	return DB
 }
 
 func CloseDB() {
