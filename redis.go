@@ -1,4 +1,4 @@
-package redispool
+package redis
 
 import (
 	"context"
