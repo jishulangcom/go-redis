@@ -1,4 +1,4 @@
-module github.com/jishulangcom/go-redispool
+module github.com/jishulangcom/go-redis
 
 go 1.17
 
