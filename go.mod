@@ -4,7 +4,8 @@ go 1.17
 
 require (
 	github.com/go-redis/redis/v8 v8.11.5
-	github.com/jishulangcom/go-config v0.0.7
+	github.com/jishulangcom/go-config v0.1.0
+	github.com/jishulangcom/go-def v0.0.2
 )
 
 require (
@@ -12,7 +13,7 @@ require (
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
-	github.com/jishulangcom/go-fun v0.0.1 // indirect
+	github.com/jishulangcom/go-fun v0.0.7 // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
