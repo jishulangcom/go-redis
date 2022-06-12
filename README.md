@@ -1,4 +1,4 @@
-# go-redispool
+# go-redis
 
 
 ```go
